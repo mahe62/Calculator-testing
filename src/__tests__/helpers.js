@@ -16,3 +16,6 @@ test('"1" tambah 1 adalah 2', ()=> {
 test('"4" kurang 1 adalah 3', ()=> {
     expect(functions.decrementQty("4")).toBe(3);
 });
+test('Subtatal from 10000 with 2 qty is 20000', ()=> {
+    expect(functions.total(10000,2)).toBe(20000);
+});
