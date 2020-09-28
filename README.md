@@ -1,6 +1,5 @@
-# Simple Cart App
-Aplikasi cart sederhana. Disadur dan dimodifikasi dari [https://github.com/kodeid-resources/simple-cart-app](https://github.com/kodeid-resources/simple-cart-app)
-
-# Acknowledgment
-[Riza Fahmi](https://github.com/rizafahmi)
-
+# Biodata
+Muhammad Rizqi Mahendra
+1841720144
+TI-3C/17
+***
