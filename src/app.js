@@ -2,7 +2,7 @@ import {
   incrementQty, 
   decrementQty,
   total,
-  kode
+  kode,
 } from './helpers.js';
 
 const incrButton = document.querySelector('#incr');
@@ -24,8 +24,15 @@ decrButton.addEventListener('click', () => {
 });
 
 confirmButton.addEventListener('click',()=>{
-if (code.value.toUpperCase() == "LUCKY50") {
-      subtotal.textContent = `Rp. ${kode(price.value, qtyInput.value)}`;
+if (code.value.toUpperCase() == "PPL50") {
+  var dis = 50;
+      subtotal.textContent = `Rp. ${kode(price.value, qtyInput.value,dis)}`
+}else if (code.value.toUpperCase()== "PPL20") {
+  var dis = 20;
+  subtotal.textContent = `Rp. ${kode(price.value, qtyInput.value,dis)}`;
+}else{
+  subtotal.textContent = `Rp. ${total(price.value, qtyInput.value)}`;
+
 }
 // subtotal.textContent = `Rp. ${kode(price.value, qtyInput.value, code.value)}`;
 });
