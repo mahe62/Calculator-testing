@@ -19,3 +19,6 @@ test('"4" kurang 1 adalah 3', ()=> {
 test('Subtatal from 10000 with 2 qty is 20000', ()=> {
     expect(functions.total(10000,2)).toBe(20000);
 });
+test('diskon LUCKY50', ()=> {
+    expect(functions.kode(50000,2)).toBe(50000);
+});
